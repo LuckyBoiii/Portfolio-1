@@ -58,6 +58,40 @@
     z-index: 2;
 }
 
+.hotbarButtons{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 50px;
+    margin-top: 3px;
+}
+#facebook{
+    margin-right: 10px;
+    background-color: rgb(255, 196, 0);
+    border-radius: 12px;
+    height: 45px;
+    width: 45px;
+}
+#twitter{
+    margin-right: 10px;
+    background-color: rgb(255, 196, 0);
+    border-radius: 12px;
+    height: 45px;
+    width: 45px;
+}
+#linkedin{
+    margin-right: 10px;
+    background-color: rgb(255, 196, 0);
+    border-radius: 12px;
+    height: 45px;
+    width: 45px;
+}
+#HotbarHassan{
+    justify-self: left;
+    position: absolute;
+    margin-top: 12px;
+    margin-left: 55px;
+    color: rgb(255, 196, 0);
+}
 
 .row {
     background-image: url("Images/BG.png");
@@ -77,6 +111,11 @@
     background-color:rgba(0, 0, 0, 0.5);
 
     z-index: 1;
+    border-style: solid;
+    border-right: hidden;
+    border-left: hidden;
+    border-width: 15px;
+    border-color: rgb(255, 196, 0);
 }
 
 .info{
@@ -113,10 +152,23 @@
     align-items: center;
 }
 
-.test{
+.vänsterTitel{
     display: flex;
+    position: absolute;
     justify-content: center;
     align-items: center;
+    margin-bottom: 18%;
+    color: rgb(255, 196, 0);
+    margin-right: 60%;
+}
+.högerTitel{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 18%;
+    margin-left: 60%;
+    color: rgb(255, 196, 0);
 }
 
 .row2{
